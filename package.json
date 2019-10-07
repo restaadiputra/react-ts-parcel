@@ -1,0 +1,44 @@
+{
+  "name": "react-ts-parcel",
+  "version": "1.0.0",
+  "description": "simple react boilerplate with typescript and parcel",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=development parcel src/index.html -p 3000",
+    "build": "cross-env NODE_ENV=production parcel build src/index.html --no-minify --public-url /"
+  },
+  "keywords": [
+    "parcel",
+    "react",
+    "typescript"
+  ],
+  "author": {
+    "name": "Resta Adiputra",
+    "url": "https://github.com/restaadiputra"
+  },
+  "license": "ISC",
+  "browserslist": [
+    "Firefox >= 60",
+    "Chrome >= 65",
+    "ie >= 11",
+    "last 4 versions",
+    "Safari >= 12"
+  ],
+  "dependencies": {
+    "@types/jest": "^24.0.18",
+    "@types/node": "^12.7.11",
+    "@types/react": "^16.9.5",
+    "@types/react-dom": "^16.9.1",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.6.4",
+    "cross-env": "^6.0.3",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.6.3"
+  }
+}
